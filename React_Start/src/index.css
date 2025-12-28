@@ -5,3 +5,39 @@ body{
   background: #000;
 }
 
+.parent{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+      flex-direction: column;
+}
+
+.card{
+  width: 300px;
+  border: 2px solid white;
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  gap: 20px;
+  border-radius: 20px;
+}
+
+.card img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card p{
+  text-align: left;
+}
+
+button{
+  padding: 10px 20px;
+  background-color: white;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+}
